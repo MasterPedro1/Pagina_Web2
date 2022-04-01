@@ -71,3 +71,25 @@ document.writeln ("Cosas que me gustan del riku" + "<br>")
 const cars = ["Sus ojos encantadores", "Huele a limón", "No tiene grafica"];
 document.writeln (cars + "<br>")
 
+document.writeln ("<br>")
+document.writeln ("<br>")
+
+var getDat = function(){
+
+    var name = document.getElementById("name").value;
+    var age = document.getElementById("age").value;
+    
+    if (name == "") {
+        document.getElementById("name").focus();
+    } else {
+        if (age == "") {
+            document.getElementById("age").focus();
+        } else {
+            console.log(name + " " + age);
+
+            document.getElementById("name").value = "";
+            document.getElementById("age").value = "";
+            document.getElementById("name").focus;
+        }
+    }
+}
