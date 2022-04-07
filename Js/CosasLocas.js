@@ -75,7 +75,7 @@ document.writeln ("<br>")
 document.writeln ("<br>")
 
 
-var getData = function(){
+/*var getData = function(){
 
     var name = document.getElementById("name").value;
     var age = document.getElementById("age").value;
@@ -93,4 +93,4 @@ var getData = function(){
             document.getElementById("name").focus;
         }
     }
-}
+}*/
