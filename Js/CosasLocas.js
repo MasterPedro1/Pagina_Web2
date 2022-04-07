@@ -74,7 +74,8 @@ document.writeln (cars + "<br>")
 document.writeln ("<br>")
 document.writeln ("<br>")
 
-var getDat = function(){
+
+var getData = function(){
 
     var name = document.getElementById("name").value;
     var age = document.getElementById("age").value;
